@@ -1,11 +1,12 @@
 var config = {
-   entry: './main.js', // entry point
+   entry: './src/index.js', // entry point
    output: {
-         filename: 'index.js', // place where bundled app will be served
+         filename: 'bundle.js', // place where bundled app will be served
       },
    devServer: {
-         inline: true, // autorefresh
-         port: 8080 // development port server
+        contentBase: './src',
+        inline: true, // autorefresh
+        port: 8080 // development port server
       },
    module: {
          loaders: [
