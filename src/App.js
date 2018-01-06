@@ -5,6 +5,7 @@ class App extends React.Component {
       return (
          <div>
             This is Daniel Mai Website Under Construction!!!
+            <button type="button" className="btn btn-warning">Warning</button>
          </div>
       );
    }
