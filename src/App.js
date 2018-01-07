@@ -1,13 +1,13 @@
 import React from 'react';
+import Header from './header/Header';
+import NavBar from './header/components/NavBar';
 
 class App extends React.Component {
-   render() {
-      return (
-         <div>
-            This is Daniel Mai Website Under Construction!!!
-            <button type="button" className="btn btn-warning">Warning</button>
-         </div>
-      );
-   }
+  render() {
+    return (
+    <div>
+      <Header/>
+    </div>);
+  }
 }
 export default App;
