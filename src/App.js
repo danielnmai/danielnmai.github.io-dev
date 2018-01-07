@@ -8,7 +8,6 @@ class App extends React.Component {
     return (
     <div>
       <Header/>
-      <Button color="danger">Danger!</Button>
     </div>);
   }
 }
