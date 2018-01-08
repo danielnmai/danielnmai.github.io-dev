@@ -11,7 +11,8 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  DropdownItem
+} from 'reactstrap';
 
 class NavBar extends Component {
   constructor(props) {
@@ -28,28 +29,25 @@ class NavBar extends Component {
     });
   }
   render() {
-    return (
-      <div>
-        <Navbar color="faded" light expand="md">
-          <NavbarBrand href="/">Daniel Mai</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/">About</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/projects">Projects</NavLink>
-              </NavItem>
-
-              <NavItem>
-                <NavLink href="/contact">Contact</NavLink>
-              </NavItem>          
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
-    );
+    return (<div>
+      <Navbar color="faded" light="light" expand="md">
+        <NavbarBrand href="/">Daniel Mai</NavbarBrand>
+        <NavbarToggler onClick={this.toggle}/>
+        <Collapse isOpen={this.state.isOpen} navbar="navbar">
+          <Nav className="ml-auto" navbar="navbar">
+            <NavItem>
+              <NavLink href="/components/">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/projects">Projects</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/contact">Contact</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>);
   }
 }
 

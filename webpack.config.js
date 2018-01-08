@@ -6,7 +6,7 @@ var config = {
   devServer: {
     contentBase: './src',
     inline: true, // autorefresh
-    port: 8080 // development port server
+    port: 3000 // development port server
   },
   module: {
        loaders: [
