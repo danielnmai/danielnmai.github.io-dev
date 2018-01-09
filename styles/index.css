@@ -1,0 +1,37 @@
+/* body {
+  background-image: url('images/photo.jpg');
+  background-repeat: no-repeat;
+   background-size: 100%;
+} */
+/* body, html {
+    height: 100%;
+} */
+.bg {
+    /* The image used */
+    background-image: url(https://mdn.mozillademos.org/files/8971/firefox_logo.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.bb {
+  background-image: url('images/photo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.tiledBackground {
+  background-image: url('images/img.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
