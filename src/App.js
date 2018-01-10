@@ -1,13 +1,17 @@
 import React from 'react';
 import Header from './header/Header';
-import NavBar from './header/components/NavBar';
+import Center from './center/Center';
+import Footer from './footer/Footer';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="bg">
-      <NavBar/>
-    </div>)
+      <div>
+        <Header />
+        <Center />
+        <Footer />
+    </div>
+  )
   }
 }
 export default App;

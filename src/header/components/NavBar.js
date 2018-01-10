@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './css/navBar.css';
+import './styles/navBar.css';
 import {
   Collapse,
   Navbar,
@@ -30,11 +30,11 @@ class NavBar extends Component {
   }
   render() {
     return (<div>
-      <Navbar color="faded" light="light" expand="md">
+      <Navbar color="faded" expand="md">
         <NavbarBrand href="/">Daniel Mai</NavbarBrand>
         <NavbarToggler onClick={this.toggle}/>
-        <Collapse isOpen={this.state.isOpen} navbar="navbar">
-          <Nav className="ml-auto" navbar="navbar">
+        <Collapse isOpen={this.state.isOpen} navbar={true}>
+          <Nav className="ml-auto" navbar={true}>
             <NavItem>
               <NavLink href="/components/">About</NavLink>
             </NavItem>
