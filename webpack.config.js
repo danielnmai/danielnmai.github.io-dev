@@ -6,10 +6,10 @@ var config = {
   devServer: {
     contentBase: './src',
     inline: true, // autorefresh
-    port: 8080 // development port server
+    port: 3000 // development port server
   },
   module: {
-       loaders: [
+    loaders: [
       {
         test: /\.jsx?$/, // search for js files
         exclude: /node_modules/,
@@ -17,12 +17,22 @@ var config = {
         query: {
           presets: ['es2015', 'react'] // use es2015 and react
         }
+      }, {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       },
 
       {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
+       test: /\.(png|jpg|gif)$/,
+       use: [
+         {
+           loader: 'url-loader',
+           options: {
+             limit: 8192
+           }
+         }
+       ]
+     }
     ]
   }
 }

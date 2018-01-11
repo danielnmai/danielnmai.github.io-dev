@@ -1,29 +1,54 @@
 import React, {Component} from 'react';
-import './css/navBar.css';
+import './styles/navBar.css';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
+} from 'reactstrap';
 
-function NavBar(props) {
+class NavBar extends Component {
+  constructor(props) {
+    super(props);
 
-  return (<nav className="navbar navbar-expand-sm navbar-light">
-    <a className="navbar-brand" href="#">Daniel Mai</a>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link" href="#">About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Projects</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>)
-};
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+  render() {
+    return (<div>
+      <Navbar color="faded" expand="md">
+        <NavbarBrand href="/">Daniel Mai</NavbarBrand>
+        <NavbarToggler onClick={this.toggle}/>
+        <Collapse isOpen={this.state.isOpen} navbar={true}>
+          <Nav className="ml-auto" navbar={true}>
+            <NavItem>
+              <NavLink href="/components/">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/projects">Projects</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/contact">Contact</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>);
+  }
+}
 
 export default NavBar;

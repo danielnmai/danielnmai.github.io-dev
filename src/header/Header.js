@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import NavBar from './components/NavBar';
+import Landing from './components/Landing';
 
 class Header extends Component {
   render() {
-    return <NavBar />;
+    return (
+      <div>
+        <Landing />
+      </div>
+     )
   }
 }
 
