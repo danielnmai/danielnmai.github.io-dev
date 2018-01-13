@@ -1,6 +1,5 @@
-import React from 'react';
-import NavBar from './NavBar';
-import NavBarDev from './NavBarDev'
+import React from 'react'
+import NavBar from './NavBar'
 import TypedString from './TypedString'
 import './styles/landing.css'
 
@@ -9,7 +8,7 @@ const Landing = (props) => {
   return (
     <header>
       {/* <NavBar /> */}
-      <NavBarDev />
+      <NavBar />
     <div className="title">
       <h1>Daniel Mai</h1>
       <TypedString />

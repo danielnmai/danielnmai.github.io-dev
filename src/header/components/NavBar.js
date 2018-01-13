@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/navBar.css';
 
-class NavBarDev extends React.Component {
+class NavBar extends React.Component {
   render(){
     return (
       <div className='container'>
@@ -11,4 +11,4 @@ class NavBarDev extends React.Component {
   }
 }
 
-export default NavBarDev;
+export default NavBar;
