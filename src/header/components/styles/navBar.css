@@ -1,3 +1,19 @@
 .container {
-  color: white
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+a {
+  padding: 10px;
+}
+a:link, a:visited {
+  color: lavender;
+  text-decoration: none;
+
+}
+a:hover, a:active {
+  color: white;
 }
