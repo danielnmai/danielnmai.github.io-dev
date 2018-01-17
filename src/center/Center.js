@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import About from './components/About';
+import './styles/center.css';
 
 class Center extends Component {
   render() {
     return (
-        <p> This is Center. </p>
+      <div className='center'>
+        <About />
+      </div>
+
     )
 
 

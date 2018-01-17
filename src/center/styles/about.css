@@ -1,0 +1,18 @@
+.about{
+  background-color: rgb(217, 236, 242);
+  display: flex;
+  flex-flow: row nowrap;
+
+  margin: 10px;
+}
+.bio > h1 {
+  font-size: 3rem;
+  font-family: 'bebas_neueregular';
+  color: rgb(34, 86, 103);
+}
+.bio{
+  flex-basis: 70%;
+}
+.profile_pic {
+  flex-basis: 30%;
+}
