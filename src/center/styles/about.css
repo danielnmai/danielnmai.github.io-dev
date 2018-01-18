@@ -16,3 +16,7 @@
 .profile_pic {
   flex-basis: 30%;
 }
+
+img {
+  border-radius: 50%;
+}
