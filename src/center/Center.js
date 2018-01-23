@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import About from './components/About';
+import Project from './components/Project';
 import './styles/center.css';
 
 class Center extends Component {
@@ -7,6 +8,7 @@ class Center extends Component {
     return (
       <div className='center'>
         <About />
+        <Project />
       </div>
 
     )

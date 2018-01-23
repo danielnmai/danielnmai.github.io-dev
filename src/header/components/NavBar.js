@@ -4,7 +4,7 @@ import './styles/navBar.css';
 class NavBar extends React.Component {
   render(){
     return (
-      <div className='container'>
+      <div className='navbar'>
         <a href='/home'>Home</a>
         <a href='/projects'>Projects</a>
         <a href='/about'>About</a>

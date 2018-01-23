@@ -15,8 +15,18 @@
 }
 
 
-body {
+ body {
   font-family: 'ralewaylight', arial, sans-serif;
   font-size: 20px;
   margin: 0;
+  /* height: 100%; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
 }
+/* .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+} */

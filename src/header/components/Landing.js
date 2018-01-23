@@ -6,15 +6,13 @@ import './styles/landing.css'
 
 const Landing = (props) => {
   return (
-    <header>
-      {/* <NavBar /> */}
+    <div className='landing'>
       <NavBar />
     <div className="title">
       <h1>Daniel Mai</h1>
       <TypedString />
-
     </div>
-  </header>
+  </div>
   );
 };
 

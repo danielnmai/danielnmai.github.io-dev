@@ -4,7 +4,7 @@ import Landing from './components/Landing';
 class Header extends Component {
   render() {
     return (
-      <div>
+      <div className='header'>
         <Landing />
       </div>
      )
