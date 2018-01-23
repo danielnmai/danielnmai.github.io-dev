@@ -5,13 +5,11 @@ import Footer from './footer/Footer';
 
 class App extends React.Component {
   render() {
-    return (
-      <div className='container'>
-        <Header />
-        <Center />
-        <Footer />
-    </div>
-  )
+    return (<div className='container'>
+      <div className='main'>
+        <Header/>
+        <Center/>
+      </div><Footer/></div>)
   }
 }
 export default App;

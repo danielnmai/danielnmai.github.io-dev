@@ -1,3 +1,10 @@
 .project{
   background-color: white;
+  padding-left: 20px;
+}
+
+.project > h1 {
+  font-size: 4rem;
+  font-family: 'bebas_neueregular';
+  color: rgb(34, 86, 103);
 }

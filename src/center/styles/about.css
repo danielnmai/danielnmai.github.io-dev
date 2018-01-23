@@ -1,4 +1,4 @@
-.about{
+.about {
   background-color: white;
   display: flex;
   flex-flow: row nowrap;
@@ -12,7 +12,7 @@
 }
 .bio{
   flex: 0 1 70%;
-  padding-left: 20px;
+  padding: 20px;
 }
 .bio > p {
   text-align: justify;
