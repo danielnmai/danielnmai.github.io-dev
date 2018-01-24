@@ -14,7 +14,16 @@
     font-style: normal;
 }
 
+/* for consistency when doing layout, this is needed */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+
+/* set custom fonts and flexbox layout for body */
  body {
   font-family: 'ralewaylight', arial, sans-serif;
   font-size: 20px;

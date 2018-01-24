@@ -6,7 +6,7 @@ class Project extends Component {
     return (
       <div className='project'>
         <h1>Portfolio</h1>
-        <p>This is project page</p>
+        <h2>Check out some of my stuff!</h2>
       </div>
     )
   }
