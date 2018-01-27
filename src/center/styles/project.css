@@ -1,10 +1,16 @@
 .project{
   background-color: white;
   padding-left: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .project > h1 {
   font-size: 4rem;
   font-family: 'bebas_neueregular';
   color: rgb(34, 86, 103);
+}
+
+.item {
+  grid-area: header;
+  background-color: yellow;
 }

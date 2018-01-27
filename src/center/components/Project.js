@@ -7,6 +7,9 @@ class Project extends Component {
       <div className='project'>
         <h1>Portfolio</h1>
         <h2>Check out some of my stuff!</h2>
+        <div className='item'>Hellow</div>
+        <div className='item'></div>
+        <div className='item'></div>
       </div>
     )
   }
