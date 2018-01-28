@@ -6,10 +6,11 @@ import Footer from './footer/Footer';
 class App extends React.Component {
   render() {
     return (<div className='container'>
-      <div className='main'>
-        <Header/>
-        <Center/>
-      </div><Footer/></div>)
+      <Header/>
+      <Center/>
+      <Footer/>
+    </div>
+  )
   }
 }
 export default App;

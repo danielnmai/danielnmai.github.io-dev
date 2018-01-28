@@ -16,8 +16,11 @@
 
 }
 .item {
-  border-radius: 5px;
   padding: 20px;
+  width: 400px;
+}
+
+.item > img {
   width: 100%;
   height: auto;
 }

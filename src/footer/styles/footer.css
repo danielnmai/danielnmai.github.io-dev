@@ -1,8 +1,6 @@
-
 /* to make footer stick to the bottom of the page */
 .footer {
-  flex-shrink: 0;
-  padding: 20px;
-  background-color: white;
+  /* grid-row-start: 2;
+  grid-row-end: 3; */
   text-align: center;
 }
