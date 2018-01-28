@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/project.css';
+import mBudget from '../styles/images/mbudget_sc.png';
 
 class Project extends Component {
   render() {
@@ -7,9 +8,24 @@ class Project extends Component {
       <div className='project'>
         <h1>Portfolio</h1>
         <h2>Check out some of my stuff!</h2>
-        <div className='item'>Hellow</div>
-        <div className='item'></div>
-        <div className='item'></div>
+        <div className='grid-container'>
+          <div className='item 1'>
+            <img src={mBudget}></img>
+            <div>Description</div>
+          </div>
+
+          <div className='item 1'>
+            <img src={mBudget}></img>
+            <div>Description</div>
+          </div>
+          
+          <div className='item 1'>
+            <img src={mBudget}></img>
+            <div>Description</div>
+          </div>
+
+        </div>
+
       </div>
     )
   }
