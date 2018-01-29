@@ -10,10 +10,7 @@ class Center extends Component {
         <About />
         <Project />
       </div>
-
     )
-
-
   }
 }
 

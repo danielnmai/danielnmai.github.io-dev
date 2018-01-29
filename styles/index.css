@@ -23,19 +23,13 @@ html {
   box-sizing: inherit;
 }
 
-
 /* set custom fonts and flexbox layout for body */
  body {
   font-family: 'ralewaylight', arial, sans-serif;
   font-size: 20px;
   margin: 0;
   padding-bottom: 6rem;
-  /* min-height: 100vh; */
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.container {
-  padding-bottom:60px;
 }

@@ -2,18 +2,18 @@ import React from 'react';
 import Header from './header/Header';
 import Center from './center/Center';
 import Footer from './footer/Footer';
+// import StickyFooter from './footer/StickyFooter';
 
 class App extends React.Component {
   render() {
-    return (<div>
-      <div className='container'>
+    return (
+      <div className='site'>
+      <div className='header-center'>
         <Header/>
         <Center/>
       </div>
-      <div>
-        <Footer/>
-      </div>
-    </div>)
+      <Footer/>
+    </div>);
   }
 }
 export default App;
