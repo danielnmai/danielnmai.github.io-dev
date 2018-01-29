@@ -30,7 +30,12 @@ html {
   font-size: 20px;
   margin: 0;
   padding-bottom: 6rem;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.container {
+  padding-bottom:60px;
 }
