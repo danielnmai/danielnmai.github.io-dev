@@ -1,29 +1,44 @@
 .about {
-  background-color: white;
   display: flex;
   flex-flow: row nowrap;
   margin: 0;
+  height: 100vh;
+  background-size: cover;
+  /*  */
 }
-.bio > h1 {
-  font-size: 4rem;
+
+.bio>h1 {
+  font-size: 3rem;
   font-family: 'bebas_neueregular';
   color: rgb(34, 86, 103);
-
 }
-.bio{
+
+.bio {
   flex: 0 1 70%;
   padding: 20px;
 }
-.bio > p {
+
+.bio>p {
   text-align: justify;
 }
+
 .profile_pic {
   flex: 0 1 30%;
-
 }
 
-.profile_pic > img {
+.profile_pic>img {
   border-radius: 50%;
   max-height: 300px;
   padding: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-around; */
+}
+.skill-item {
+  flex: 0 1 auto;
+  padding: 20px;
+
 }

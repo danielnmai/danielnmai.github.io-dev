@@ -11,17 +11,12 @@ class Project extends Component {
         <div className='grid-container'>
           <div className='item 1'>
             <img src={mBudget}></img>
-            <div>Description</div>
+            <div>Github</div>
           </div>
 
-          <div className='item 1'>
+          <div className='item 2'>
             <img src={mBudget}></img>
-            <div>Description</div>
-          </div>
-          
-          <div className='item 1'>
-            <img src={mBudget}></img>
-            <div>Description</div>
+            <div>Github</div>
           </div>
 
         </div>

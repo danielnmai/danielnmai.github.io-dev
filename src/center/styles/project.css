@@ -1,5 +1,5 @@
 .project>h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'bebas_neueregular';
   color: rgb(34, 86, 103);
 }
@@ -7,17 +7,18 @@
 .project {
   background-color: white;
   padding-left: 20px;
+  height: 100vh;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 
 }
 .item {
   padding: 20px;
-  width: 400px;
+  width: 500px;
 }
 
 .item > img {
