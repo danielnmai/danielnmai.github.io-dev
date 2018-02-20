@@ -17,19 +17,30 @@ let doTwo = (text) => {
 }
 
 let doSomething = new Promise((resolve, reject) => {
-  reject('we do something!')
+  resolve('we do something!')
 })
 
 doSomething.then(result => doOne(result)).then(secondResult => doTwo(secondResult))
 
-promise.then(succesMsg => {
-  console.log('Yahy!' + succesMsg)
-})
+// promise.then(succesMsg => {
+//   console.log('Yahy!' + succesMsg)
+// })
+
+
+
+
+
+
+
 class Contact extends Component {
   constructor(props){
     super(props)
-    this.state = {name: '', email: '', message: ''}
+    this.state = {name: 'Bruce Lee', email: '', message: '', id: '245525'}
     this.handleSubmit = this.handleSubmit.bind(this)
+  }
+
+  shouldComponentUpdate(nextProps, nextState){
+    return nextState.id === this.state.id
   }
   handleSubmit(event){
     event.preventDefault()
@@ -45,6 +56,18 @@ class Contact extends Component {
  }
   handleMessageChange(event) {
    this.setState({message: event.target.value});
+ }
+  onChangeName(){
+   this.setState({name: 'Daniel'})
+ }
+  onChangeId(){
+   this.setState({id: '9999'})
+ }
+
+ clickChangeIdButton(element){
+   setTimeout(()=>{
+     element.click()
+   }, 2000)
  }
   render(){
     return (
@@ -66,6 +89,10 @@ class Contact extends Component {
           <input type='submit' value='Send Message' />
         </form>
 
+        <button onClick={this.onChangeId.bind(this)}>Change ID </button>
+        <button ref={this.clickChangeIdButton} onClick={this.onChangeName.bind(this)} >Change Name </button>
+        <div>{this.state.name}</div>
+        <div>{this.state.id}</div>
       </div>
     )
   }
