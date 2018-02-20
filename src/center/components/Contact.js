@@ -1,6 +1,30 @@
 import React, { Component } from 'react'
 import '../styles/contact.css';
 
+let promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('error after 2s!')
+  }, 2000)
+})
+
+let doOne = (text) => {
+  console.log(text)
+  return 'do second thing'
+}
+
+let doTwo = (text) => {
+  console.log(text)
+}
+
+let doSomething = new Promise((resolve, reject) => {
+  reject('we do something!')
+})
+
+doSomething.then(result => doOne(result)).then(secondResult => doTwo(secondResult))
+
+promise.then(succesMsg => {
+  console.log('Yahy!' + succesMsg)
+})
 class Contact extends Component {
   constructor(props){
     super(props)
