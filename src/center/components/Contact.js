@@ -93,7 +93,7 @@ class Contact extends Component {
         <button ref={this.clickChangeIdButton} onClick={this.onChangeName.bind(this)} >Change Name </button>
         <div>{this.state.name}</div>
         <div>{this.state.id}</div>
-        {/* comment */}
+        {/* ADD COMMENT */}
       </div>
     )
   }
