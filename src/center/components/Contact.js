@@ -10,7 +10,7 @@ class Contact extends Component {
 
   handleSubmit(event){
     event.preventDefault()
-    console.log('fom is submitted')
+    console.log('form is submitted')
     console.log(this.state)
 
   }
