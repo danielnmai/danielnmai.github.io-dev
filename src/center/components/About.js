@@ -26,7 +26,7 @@ class About extends Component {
           </div>
 
           <div className='skill-item'>
-            <h3>Frameworks/ Libraries</h3>
+            <h3>Frameworks / Libraries</h3>
             <ul>
               <li>React-Redux</li>
               <li>Rails</li>
