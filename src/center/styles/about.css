@@ -1,10 +1,9 @@
 .about {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow:row wrap;
   margin: 0;
   height: 100vh;
   background-size: cover;
-  /*  */
 }
 
 .bio>h1 {
@@ -35,10 +34,14 @@
 .skills {
   display: flex;
   flex-flow: row wrap;
-  /* justify-content: space-around; */
+  padding: 20px;
+}
+.skills > h1 {
+  font-size: 3rem;
+  font-family: 'bebas_neueregular';
+  color: rgb(34, 86, 103);
 }
 .skill-item {
-  flex: 0 1 auto;
+  flex: 0 1 25%;
   padding: 20px;
-
 }
