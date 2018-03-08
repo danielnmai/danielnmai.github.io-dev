@@ -18,9 +18,7 @@ class Project extends Component {
             <img src={mBudget}></img>
             <div>Github</div>
           </div>
-
         </div>
-
       </div>
     )
   }
