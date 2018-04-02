@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/project.css';
 import mBudget from '../styles/images/mbudget_sc.png';
+import eCommerce from '../styles/images/ecommerce.png';
 
 class Project extends Component {
   render() {
@@ -11,12 +12,14 @@ class Project extends Component {
         <div className='grid-container'>
           <div className='item 1'>
             <img src={mBudget}></img>
-            <div>Github</div>
+            <a href='/home'>Github</a>
+            <a href='/home'>Heroku</a>
           </div>
 
           <div className='item 2'>
-            <img src={mBudget}></img>
+            <img src={eCommerce}></img>
             <div>Github</div>
+            <div>Heroku</div>
           </div>
         </div>
       </div>
