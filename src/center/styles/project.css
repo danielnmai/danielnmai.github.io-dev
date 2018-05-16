@@ -12,16 +12,21 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-auto-rows: 1fr;
 }
 .item {
   padding: 20px;
-  width: 500px;
+  width: auto;
 }
 
-.item > img {
+.item > .snapshot{
   width: 100%;
   height: auto;
+}
+
+a > .logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
 }
