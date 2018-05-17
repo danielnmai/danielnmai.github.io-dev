@@ -1,5 +1,23 @@
-.contact>h1 {
+.contact > h1 {
   font-size: 3rem;
   font-family: 'bebas_neueregular';
   color: rgb(34, 86, 103);
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* repeat = as many times as you can fit */
+ /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
+ /*minmax = (min size, max size) = the minimum size the column should be is 300px, but if there's space then give them all 1fr of that width. */
+  grid-gap: 10px;
+}
+
+.form {
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.info {
+  background-color: red;
 }
