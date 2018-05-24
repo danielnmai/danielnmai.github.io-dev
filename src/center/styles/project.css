@@ -1,13 +1,13 @@
-.project>h1 {
+.project > h1 {
   font-size: 3rem;
   font-family: 'bebas_neueregular';
   color: rgb(34, 86, 103);
 }
 
 .project {
-  background-color: aqua;
+  /* background-color: aqua; */
   padding-left: 20px;
-  height: 80vh;
+  height: 100vh;
 }
 
 .grid-container {

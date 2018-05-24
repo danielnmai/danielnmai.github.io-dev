@@ -3,7 +3,12 @@
   font-family: 'bebas_neueregular';
   color: rgb(34, 86, 103);
 }
-.container {
+
+.contact {
+  padding-left: 20px;
+  height: 100vh;
+}
+.body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* repeat = as many times as you can fit */
@@ -13,11 +18,18 @@
 }
 
 .form {
+  background-color: palegreen;
+  justify-self: stretch;
   font-size: 2rem;
-  display: grid;
-  grid-template-columns: 1fr;
+  
 }
 
 .info {
-  background-color: red;
+  background-color: yellowgreen;
 }
+
+input, button, textarea {
+  justify-self: start;
+  background: white;
+}
+

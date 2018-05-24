@@ -11,8 +11,7 @@ class Project extends Component {
     return (
       <div className='project'>
         <h1>Portfolio</h1>
-        <h2>Check out some of projects I've done.</h2>
-        <h3>The Heroku link will take some time to load, please be patient!</h3>
+        <h3>Check out some of projects I've done.</h3>
      <div className='grid-container'>
           <div className='item 1'>
             <img className='snapshot' src={mBudget}></img>
