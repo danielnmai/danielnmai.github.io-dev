@@ -1,7 +1,27 @@
 @font-face {
     font-family: 'ralewaylight';
     src: url('./fonts/raleway-light-webfont.woff2') format('woff2'),
-         url('./fonts/raleway-light-webfont.woff') format('woff');
+         url('./fonts/raleway-light-webfont.woff') format('woff'),
+         url('./fonts/raleway-medium.woff') format('woff'),
+         url('./fonts/raleway-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('./fonts/raleway-medium.woff') format('woff');         
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('./fonts/raleway-medium.woff') format('woff');         
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('./fonts/raleway-regular.woff') format('woff');         
     font-weight: normal;
     font-style: normal;
 }
@@ -25,7 +45,7 @@ html {
 
 /* set custom fonts and flexbox layout for body */
  body {
-  font-family: 'ralewaylight', arial, sans-serif;
+  font-family: 'ralewayregular', arial, sans-serif;
   font-size: 20px;
   margin: 0;
   padding-bottom: 6rem;
