@@ -39,11 +39,13 @@ class Contact extends Component {
               <div>
                 <textarea type='text' name='message' placeholder="Message" value={this.state.message} onChange={(e) => this.handleMessageChange(e)} />
               </div>
-              <input type='submit' value='Send Message' />
+              <input class='input-button' type='submit' value='Send Message' />
             </form>
           </div>
           <div className='info'>
-            <div>Some Info here</div>
+            <h3>Daniel Mai</h3>
+            <p> Milpitas, California</p>
+            <p> danielmai1728@gmail.com </p>
           </div>
         </div>
       </div>

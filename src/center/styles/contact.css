@@ -17,27 +17,28 @@
   grid-gap: 10px;
 }
 
-.form {
-  background-color: palegreen;
-  justify-self: stretch;
-
-  
-}
-
-.info {
-  background-color: yellowgreen;
-}
-
 input, button, textarea {
   justify-self: start;
   background: white;
   font-size: 1rem;
   font-family: 'ralewaylight';
+  padding: 10px 10px;
   margin: 10px;
   width: 80%;
 }
 textarea {
-  min-height: 50px;
+  min-height: 80px;
   max-height: 150px;
+}
+
+.input-button {
+  background-color: none;
+  border: 2px solid #225667;
+  color: #225667;
+  font-size: 1.2rem;
+}
+.input-button:hover {
+  background-color: #225667;
+  color: white;
 }
 
