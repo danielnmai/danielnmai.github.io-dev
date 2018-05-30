@@ -1,13 +1,17 @@
+.contact {
+  padding-left: 20px;
+  height: 100vh;
+  background-image: url('images/map.jpg');
+}
+
 .contact > h1 {
   font-size: 3rem;
   font-family: 'bebas_neueregular';
   color: rgb(34, 86, 103);
 }
 
-.contact {
-  padding-left: 20px;
-  height: 100vh;
-}
+
+
 .body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -17,27 +21,34 @@
   grid-gap: 10px;
 }
 
-input, button, textarea {
+.form-input {
   justify-self: start;
-  background: white;
+  background-color: rgba(255,255,255,.8);
   font-size: 1rem;
   font-family: 'ralewaylight';
   padding: 10px 10px;
   margin: 10px;
   width: 80%;
+  border: 1px solid #ced4da;
 }
+.form-input:focus {
+  border: 1px solid #225667;
+}
+
 textarea {
   min-height: 80px;
   max-height: 150px;
 }
 
-.input-button {
+
+#submit-button {
   background-color: none;
-  border: 2px solid #225667;
+  border: 1px solid #225667;
   color: #225667;
   font-size: 1.2rem;
+  font-family: 'ralewaymedium';
 }
-.input-button:hover {
+#submit-button:hover {
   background-color: #225667;
   color: white;
 }

@@ -26,22 +26,14 @@ class Contact extends Component {
   render() {
     return (
       <div className='contact'>
-        <h1>Contact</h1>
+        <h1>Contact</h1>       
         <div className='body'>
-          <div className='form'>
-            <form onSubmit={this.handleSubmit}>
-              <div>
-                <input type='text' name='name' placeholder="Name" value={this.state.name} onChange={(e) => this.handleNameChange(e)} />
-              </div>
-              <div>
-                <input type='text' name='email' placeholder="Email" value={this.state.email} onChange={(e) => this.handleEmailChange(e)} />
-              </div>
-              <div>
-                <textarea type='text' name='message' placeholder="Message" value={this.state.message} onChange={(e) => this.handleMessageChange(e)} />
-              </div>
-              <input class='input-button' type='submit' value='Send Message' />
+            <form onSubmit={this.handleSubmit}>            
+                <input className='form-input' type='text' name='name' placeholder="Name" value={this.state.name} onChange={(e) => this.handleNameChange(e)} />
+                <input className='form-input' type='text' name='email' placeholder="Email" value={this.state.email} onChange={(e) => this.handleEmailChange(e)} />
+                <textarea className='form-input' type='text' name='message' placeholder="Message" value={this.state.message} onChange={(e) => this.handleMessageChange(e)} />
+              <input className='form-input' id='submit-button' type='submit' value='Send Message' />
             </form>
-          </div>
           <div className='info'>
             <h3>Daniel Mai</h3>
             <p> Milpitas, California</p>
