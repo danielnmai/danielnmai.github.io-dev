@@ -10,8 +10,6 @@
   color: rgb(34, 86, 103);
 }
 
-
-
 .body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

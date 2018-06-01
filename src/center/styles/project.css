@@ -7,7 +7,8 @@
 .project {
   /* background-color: aqua; */
   padding-left: 20px;
-  height: 100vh;
+  min-height: 100vh;
+  
 }
 
 .grid-container {
@@ -21,7 +22,7 @@
 }
 
 .item > .snapshot{
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
