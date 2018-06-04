@@ -15,7 +15,8 @@ var config = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2015', 'react'] // use es2015 and react
+          presets: ['es2015', 'react'],
+          plugins: ['transform-decorators-legacy']
         }
       }, {
         test: /\.css$/,
