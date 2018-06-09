@@ -9,7 +9,7 @@ import github from '../styles/images/github.png';
 class Project extends Component {
   render() {
     return (
-      <div className='project'>
+      <div id='project' className='project'>
         <h1>Portfolio</h1>
      <div className='grid-container'>
           <div className='item 1'>
