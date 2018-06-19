@@ -4,6 +4,10 @@
   justify-content: flex-end;
   align-items: center;
   color: white;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .navbar>a {
@@ -13,6 +17,6 @@
   color: lavender;
   text-decoration: none;
 }
-.navbar > a:hover, .navbar > `a:active {
+.navbar > a:hover, .navbar > a:active {
   color: white;
 }

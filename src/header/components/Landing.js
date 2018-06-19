@@ -6,8 +6,7 @@ import './styles/landing.css'
 
 const Landing = (props) => {
   return (
-    <div className='landing'>
-      <NavBar />
+    <div id='home' className='landing'>
     <div className="title">
       <h1>Daniel Mai</h1>
       <TypedString />
