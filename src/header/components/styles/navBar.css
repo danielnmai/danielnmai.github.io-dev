@@ -4,13 +4,13 @@
   justify-content: flex-end;
   align-items: center;
   color: white;
-
+  
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 0px;
 }
 
-.navbar>a {
+.navbar> a   {
   padding: 10px;
 }
 .navbar > a:link, .navbar>a:visited {
