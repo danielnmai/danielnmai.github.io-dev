@@ -9,7 +9,8 @@ class App extends React.Component {
   render() {
     return (
       <div className='site'>
-      <div className='header-center'>        
+      <div className='header-center'> 
+        <NavBar />       
         <Header/>
         <Center/>
       </div>

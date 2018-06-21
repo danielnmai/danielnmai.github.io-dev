@@ -4,10 +4,12 @@
   justify-content: flex-end;
   align-items: center;
   color: white;
+  background-color: black;
   
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 
 .navbar> a   {
