@@ -8,28 +8,28 @@
 bold {
   font-family: 'ralewaymedium';
 }
-.bio>h1 {
+.bio > h1 {
   font-size: 3rem;
   font-family: 'bebas_neueregular';
   color: rgb(34, 86, 103);
 }
 
 .bio {
-  flex: 0 1 70%;
   padding: 20px;
 }
 
-.bio>p {
+.bio > p {
   text-align: justify;
 }
 
-.profile_pic {
-  flex: 0 1 30%;
+#profile_pic {
+  float: right;
 }
 
-.profile_pic>img {
+#profile_pic {
   border-radius: 50%;
-  max-height: 300px;
+  max-width: 200px;
+  
   padding: 20px;
 }
 
