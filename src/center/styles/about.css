@@ -28,8 +28,7 @@ bold {
 
 #profile_pic {
   border-radius: 50%;
-  max-width: 200px;
-  
+  max-height: 250px;  
   padding: 20px;
 }
 
