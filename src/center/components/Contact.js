@@ -48,7 +48,7 @@ class Contact extends Component {
       <h3>Daniel Mai</h3>
       <p> Milpitas, California</p>
       <p> danielmai1728@gmail.com</p>
-      {this.formInput.formSubmitted && <FormOutput {...this.formInput} />}        
+      {/* {this.formInput.formSubmitted && <FormOutput {...this.formInput} />}         */}
       </div>
       </div>
       </div>
