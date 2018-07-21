@@ -1,7 +1,10 @@
+const path = require('path');
 var config = {
+  mode: 'production',
   entry: './src/index.js', // entry point
   output: {
-    filename: 'bundle.js', // place where bundled app will be served
+    path: path.join(__dirname, "online/dist"), // place where bundled app will be served
+    filename: 'bundle.js', 
   },
   devServer: {
     contentBase: './src',
