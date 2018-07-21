@@ -9,7 +9,7 @@ var config = {
     port: 3000 // development port server
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?$/, // search for js files
         exclude: /node_modules/,
